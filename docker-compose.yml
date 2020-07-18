@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 services:
   mysql:
     image: jumpserver/jms_mysql:${Version}
@@ -118,3 +118,4 @@ volumes:
 
 networks:
   jumpserver:
+    name: jumpserver-net
